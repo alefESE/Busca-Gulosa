@@ -1,0 +1,10 @@
+all: prim dijkstra
+
+prim: prim.c
+	gcc prim.c -o prim
+
+dijkstra: dijkstra.c
+	gcc dijkstra.c -o dijkstra
+
+clean:
+	rm *.os
